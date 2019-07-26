@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title> portforio site</title>
+  <style>
+  </style>
+  <link rel="stylesheet" href="portforiosite.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="venobox.css">
+</head>
+<body>
+  <header class="header">
+    <div class="inner">
+      <div class="naviflex">
+        <h1 class="name"><a href="portforiosite.html">YUKA DOMAE</a></h1>
+        <ul class="navigation">
+          <li class="navitem"><a href="portforiosite.html#about">about</a></li>
+          <li class="na vitem"><a href="portforiosite.html#works">works</a></li>
+          <li class="navitem"><a href="contuct.html">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <input id="menu-cb" type="checkbox" value="off">
+  <label id="menu-icon" for="menu-cb">≡</label>
+  <label id="menu-background" for="menu-cb"></label>
+  <div id="ham-menu">
+      <ul>
+          <li><a href="#">about</a></li>
+          <li><a href="#">works</a></li>
+          <li><a href="#">contact</a></li>
+      </ul>
+  </div>
+
+
+  <section class="main4wrap">
+    <div class="inner">
+      <div class="main4height">
+        <h2>Contact<br><span>お問い合わせ</span></h2>
+        <div class="main4">
+        </div>
+
+
+
+        <form action="yuka.domae@gmail.com" method="post" enctype="text/plain" class="form">
+  <p>お名前(※必須)<br>
+  <label><input type="text" name="name" class="form-name">  </label>
+  </p>
+  <p>メールアドレス(※必須)<br>
+  <label>  <input type="text" name="email" class="form-add"></p></label>
+
+
+  <p>お問合せ内容(※必須)<br>
+      <label><textarea name="toiawase" cols="70" rows="15" class="form-area">
+    </textarea></label>
+</p>
+  <p class="submit"><input type="submit" value="送信" class="formsubmit"></p>
+
+
+  <p class="reset"><input type="reset" value="取消する" class="formreset"></p>
+
+</form>
+
+
+      </div>
+    </div>
+  </section>
+  <footer class="footerwrap">
+    <div class="inner">
+      <div class="footerheight">
+        <p>Yuka Domae</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script>
+    $(function() {
+      $('.venobox').venobox({
+        infinigall: true,
+        numeratio: true,
+      });
+    });
+  </script>
+    <script src="scrolls.js"></script>
+</body>
+</html>
