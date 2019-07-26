@@ -9,7 +9,6 @@
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
 }
-
 .vbox-overlay{
     display: -webkit-flex;
     display: flex;
